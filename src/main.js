@@ -20,6 +20,8 @@ Vue.use(VueMaterial)
 
 Vue.use(BootstrapVue)
 
+import HighchartsVue from 'highcharts-vue'
+Vue.use(HighchartsVue)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

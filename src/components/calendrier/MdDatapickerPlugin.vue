@@ -18,6 +18,9 @@
   import 'vue-material/dist/theme/default.css'
   export default {
     name: "mddatapickerplugin",
+    props:{
+
+    },
     components:{
       VueMaterial
     },

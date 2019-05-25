@@ -1,7 +1,7 @@
 <template>
     <b-card :no-body="true" footer-class="px-3 py-2">
           <b-card-body class="p-3 clearfix">
-            <i class="fa fa-laptop bg-info p-3 font-2xl mr-3 float-left"></i>
+            <i class="fa fa-diamond bg-primary p-3 font-2xl mr-3 float-left"></i>
             <div class="h6 text-info mb-0 mt-2">$100.000.999,50</div>
             <div class="text-muted text-uppercase font-weight-bold font-xs">Marge</div>
           </b-card-body>

@@ -1,13 +1,13 @@
 <template>
   <div class="animated fadeIn">
 
-      <!--calendrier-->
-      <calendrier></calendrier>
+    <!--calendrier-->
+    <calendrier></calendrier>
 
     <b-row>
       <!--CA-->
       <b-col cols="12" sm="6" lg="3">
-          <chiffresd-affraires-total></chiffresd-affraires-total>
+        <chiffresd-affraires-total></chiffresd-affraires-total>
       </b-col>
       <b-col cols="12" sm="6" lg="3">
         <chiffres-marge-total></chiffres-marge-total>
@@ -33,6 +33,9 @@
         <produits-rebute></produits-rebute>
       </b-col>
     </b-row>
+    <b-card>
+      <financiel-general></financiel-general>
+    </b-card>
 
     <b-card>
       <b-row>
@@ -426,10 +429,12 @@
   import FamilleAcoustique from "../components/chiffresProductionGlobal/FamilleAcoustique";
   import EvolutionFrabrication from "../components/chiffresProductionGlobal/EvolutionFrabrication";
   import ProduitsRebute from "../components/chiffresProductionGlobal/ProduitsRebute";
+  import FinancielGeneral from "../components/charts/resume/FinancielGeneral";
 
   export default {
     name: 'dashboard',
     components: {
+      FinancielGeneral,
       ProduitsRebute,
       EvolutionFrabrication,
       FamilleAcoustique,
