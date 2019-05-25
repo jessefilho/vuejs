@@ -13,7 +13,7 @@ export default {
         label: 'My First dataset',
         backgroundColor: brandPrimary,
         borderColor: 'rgba(255,255,255,.55)',
-        data: [65, 59, 84, 84, 51, 55, 40]
+        data: [605, 59, 84, 84, 51, 55, 40]
       }
     ]
 
